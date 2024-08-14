@@ -1,0 +1,106 @@
+{
+  "tipoTramites": [
+    {
+      "id": "1",
+      "nombre": "Registro Catastral",
+      "estado": "AC"
+    },
+    {
+      "id": "2",
+      "nombre": "Certificacion de plano",
+      "estado": "AC"
+    },
+    {
+      "id": "3",
+      "nombre": "Visación técnica",
+      "estado": "AC"
+    },
+    {
+      "nombre": "Visación de Minutas",
+      "id": "pq5MC1_",
+      "estado": "AC"
+    },
+    {
+      "nombre": "División de Predio",
+      "estado": "AC",
+      "id": "4-Zr--t"
+    }
+  ],
+  "tramites": [
+    {
+      "id": "1",
+      "tipoTramiteId": "1",
+      "nroTramite": "2024000001",
+      "fechaIngreso": "2024-05-05",
+      "estado": "AC"
+    },
+    {
+      "id": "2",
+      "tipoTramiteId": "2",
+      "nroTramite": "2024000002",
+      "fechaIngreso": "2024-07-15",
+      "estado": "AC"
+    },
+    {
+      "nroTramite": "2024000003",
+      "fechaIngreso": "2024-08-09",
+      "estado": "AC",
+      "tipoTramiteId": "3",
+      "id": "o-MzH4H",
+      "tipoTramite": {
+        "nombre": "División de Predio",
+        "estado": "AC",
+        "id": "4-Zr--t"
+      }
+    },
+    {
+      "nroTramite": "2024000004",
+      "fechaIngreso": "2024-08-10",
+      "estado": "AC",
+      "tipoTramiteId": "4-Zr--t",
+      "id": "kyFtBfn",
+      "tipoTramite": {
+        "nombre": "División de Predio",
+        "estado": "AC",
+        "id": "4-Zr--t"
+      }
+    }
+  ],
+  "tramiteTrazas": [
+    {
+      "id": "1",
+      "tramiteId": "1",
+      "fechaRecepcion": "2024-05-05",
+      "unidad": "Recepcion de tramites",
+      "estado": "AC"
+    },
+    {
+      "id": "2",
+      "tramiteId": "1",
+      "fechaRecepcion": "2024-05-06",
+      "unidad": "Servicios catastrales",
+      "estado": "AC"
+    },
+    {
+      "id": "3",
+      "tramiteId": "1",
+      "fechaRecepcion": "2024-05-09",
+      "unidad": "Area legal",
+      "estado": "AC"
+    },
+    {
+      "id": "4",
+      "tramiteId": "2",
+      "fechaRecepcion": "2024-07-15",
+      "unidad": "Recepcion de tramites",
+      "estado": "AC"
+    },
+    {
+      "id": "5",
+      "tramiteId": "2",
+      "fechaRecepcion": "2024-07-17",
+      "unidad": "Servicios catastrales",
+      "estado": "AC"
+    }
+  ]
+}

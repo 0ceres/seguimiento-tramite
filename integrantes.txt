@@ -1,0 +1,8 @@
+Practica 2 Vue3 Seguimiento Trámite
+Nombre(s) de integrante(s):
+- Roger Orlando Ceres Salinas CI: 3552765
+ 
+Pasos para iniciar el proyecto
+1) npm install
+2) npm run serve
+3) json-server --watch db.json (dentro la carpeta "db")

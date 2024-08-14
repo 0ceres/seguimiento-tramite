@@ -1,11 +1,29 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import TipoTramiteView from '@/views/tipoTramite/TipoTramiteView.vue'
+import TramiteView from '@/views/tramite/TramiteView.vue'
+import TramiteTrazaView from '@/views/tramiteTraza/TramiteTrazaView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/tipoTramite',
+    name: 'tipoTramite',
+    component: TipoTramiteView
+  },
+  {
+    path: '/tramite',
+    name: 'tramite',
+    component: TramiteView
+  },
+  {
+    path: '/tramite/:id/trazas',
+    name: 'tramiteTrazas',
+    component: TramiteTrazaView
   },
   {
     path: '/about',
